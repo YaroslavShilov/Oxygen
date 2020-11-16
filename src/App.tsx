@@ -146,6 +146,105 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className="features">
+        <div className="container">
+          <div className="features__inner">
+            <h2 className="features__title title">Let's make magic.</h2>
+            <div className="features__text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deleniti, dolores exercitationem explicabo harum inventore iusto
+                magnam maxime natus numquam odio placeat quas, repudiandae
+                tempora totam, vel velit vero vitae voluptatum!
+              </p>
+              <p>
+                Corporis ipsum natus quia sint! Consectetur dicta dolorem ea eos
+                rem vero voluptatibus? Aspernatur, aut deserunt dolor fugit
+                harum id illum, labore nemo nesciunt odio odit optio quis sit
+                temporibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="portfolio">
+        <div className="container">
+          <div className="portfolio__head">
+            <h2 className="title">Portfolio</h2>
+            <ul className="portfolio__tabs">
+              <li className="portfolio__tab">
+                <button className="portfolio__tab-btn">All</button>
+              </li>
+              <li className="portfolio__tab">
+                <button className="portfolio__tab-btn">Branding</button>
+              </li>
+              <li className="portfolio__tab">
+                <button className="portfolio__tab-btn">Photography</button>
+              </li>
+              <li className="portfolio__tab">
+                <button className="portfolio__tab-btn">Illustration</button>
+              </li>
+            </ul>
+          </div>
+
+          <div className="portfolio__items">
+            <div className="portfolio__item">
+              <div className="portfolio__item-title">Occa cupidatat</div>
+              <div className="portfolio__item-desc">Design</div>
+            </div>
+            <div className="portfolio__item">
+              <div className="portfolio__item-title">Occa cupidatat</div>
+              <div className="portfolio__item-desc">Design</div>
+            </div>
+            <div className="portfolio__item">
+              <div className="portfolio__item-title">Occa cupidatat</div>
+              <div className="portfolio__item-desc">Design</div>
+            </div>
+            <div className="portfolio__item">
+              <div className="portfolio__item-title">Occa cupidatat</div>
+              <div className="portfolio__item-desc">Design</div>
+            </div>
+            <div className="portfolio__item">
+              <div className="portfolio__item-title">Occa cupidatat</div>
+              <div className="portfolio__item-desc">Design</div>
+            </div>
+            <div className="portfolio__item">
+              <div className="portfolio__item-title">Occa cupidatat</div>
+              <div className="portfolio__item-desc">Design</div>
+            </div>
+            <div className="portfolio__item">
+              <div className="portfolio__item-title">Occa cupidatat</div>
+              <div className="portfolio__item-desc">Design</div>
+            </div>
+            <div className="portfolio__item">
+              <div className="portfolio__item-title">Occa cupidatat</div>
+              <div className="portfolio__item-desc">Design</div>
+            </div>
+            <div className="portfolio__item">
+              <div className="portfolio__item-title">Occa cupidatat</div>
+              <div className="portfolio__item-desc">Design</div>
+            </div>
+          </div>
+
+          <button className="portfolio__btn">View more projects</button>
+        </div>
+      </section>
+
+      <section className="video">
+        <div className="container">
+          <div className="video__quotes">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            autem beatae culpa cupiditate eum, exercitationem impedit ipsa
+            labore magnam maxime neque perspiciatis soluta tempora tempore
+            tenetur, unde vel vitae voluptatem.
+          </div>
+
+          <div className="video__quotes-author">Super Person</div>
+          <video className="video__content" src=""></video>
+        </div>
+      </section>
     </div>
   );
 }
