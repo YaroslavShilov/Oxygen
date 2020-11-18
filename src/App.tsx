@@ -318,24 +318,22 @@ const App: React.FC = () => {
 
       <section className="team">
         <div className="container">
-          <h2 className="title">
-            Our Team
-          </h2>
+          <h2 className="title">Our Team</h2>
           <div className="team__items">
             <div className="team__item">
-              <img className="team__item-img" src="" alt="photo"/>
+              <img className="team__item-img" src="" alt="photo" />
               <h3 className="team__item-name">Bernard sparks</h3>
               <p className="team__item-position">CEO</p>
             </div>
 
             <div className="team__item">
-              <img className="team__item-img" src="" alt="photo"/>
+              <img className="team__item-img" src="" alt="photo" />
               <h3 className="team__item-name">Minerva Benson</h3>
               <p className="team__item-position">Co-Founder</p>
             </div>
 
             <div className="team__item">
-              <img className="team__item-img" src="" alt="photo"/>
+              <img className="team__item-img" src="" alt="photo" />
               <h3 className="team__item-name">Jared Olson</h3>
               <p className="team__item-position">Sales</p>
             </div>
@@ -352,7 +350,37 @@ const App: React.FC = () => {
           <div className="pricing__item">
             <p className="pricing__item-name">Basic</p>
             <div className="pricing__item-rate">
+              29 <span>/ mo</span>
+            </div>
+            <ul className="pricing__list">
+              <li className="pricing__list-item">1 Logo Design</li>
+              <li className="pricing__list-item">1 Website Design</li>
+              <li className="pricing__list-item">1 Domain Free</li>
+              <li className="pricing__list-item">3 Month License</li>
+              <li className="pricing__list-item">1 GB Storage</li>
+            </ul>
+            <button className="pricing__btn">Choose plan</button>
+          </div>
 
+          <div className="pricing__item">
+            <p className="pricing__item-name">Basic</p>
+            <div className="pricing__item-rate">
+              29 <span>/ mo</span>
+            </div>
+            <ul className="pricing__list">
+              <li className="pricing__list-item">1 Logo Design</li>
+              <li className="pricing__list-item">1 Website Design</li>
+              <li className="pricing__list-item">1 Domain Free</li>
+              <li className="pricing__list-item">3 Month License</li>
+              <li className="pricing__list-item">1 GB Storage</li>
+            </ul>
+            <button className="pricing__btn">Choose plan</button>
+          </div>
+
+          <div className="pricing__item">
+            <p className="pricing__item-name">Basic</p>
+            <div className="pricing__item-rate">
+              29 <span>/ mo</span>
             </div>
             <ul className="pricing__list">
               <li className="pricing__list-item">1 Logo Design</li>
@@ -364,6 +392,35 @@ const App: React.FC = () => {
             <button className="pricing__btn">Choose plan</button>
           </div>
         </div>
+      </section>
+
+      <section className="contact">
+        <div className="container">
+          <div className="contact__content">
+            <form className="contact__form">
+              <input
+                type="text"
+                className="contact__form-input"
+                placeholder="Your name"
+                required
+              />
+              <input
+                type="text"
+                className="contact__form-input"
+                placeholder="Valid Email"
+                required
+              />
+              <textarea
+                className="contact__form-textarea"
+                placeholder="Your message"
+                required
+              />
+              <button className="contact__form-btn">Send message</button>
+            </form>
+          </div>
+        </div>
+
+        <div className="contact__map" />
       </section>
     </div>
   );
