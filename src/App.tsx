@@ -422,6 +422,63 @@ const App: React.FC = () => {
 
         <div className="contact__map" />
       </section>
+
+      <footer className="footer">
+        <div className="container">
+          <div className="footer__content">
+            <div className="logo logo--line">
+              <a className="logo__link" href="#">
+                <img className="logo__img" src="" alt="logo" />
+              </a>
+            </div>
+            <ul className="footer__social-list">
+              <li className="footer__social-item">
+                <a href="#" className="footer__social-link">
+                  Facebook
+                </a>
+              </li>
+              <li className="footer__social-item">
+                <a href="#" className="footer__social-link">
+                  Twitter
+                </a>
+              </li>
+              <li className="footer__social-item">
+                <a href="#" className="footer__social-link">
+                  Google+
+                </a>
+              </li>
+              <li className="footer__social-item">
+                <a href="#" className="footer__social-link">
+                  Behance
+                </a>
+              </li>
+              <li className="footer__social-item">
+                <a href="#" className="footer__social-link">
+                  Dribble
+                </a>
+              </li>
+              <li className="footer__social-item">
+                <a href="#" className="footer__social-link">
+                  Instagram
+                </a>
+              </li>
+            </ul>
+
+            <p className="footer__adress">
+              Mese Selimovica 52, Banja Luka - Bih
+            </p>
+            <a href="tel:0038765252222" className="footer__phone">
+              (00387) 65 252 222
+            </a>
+            <a href="mailto:info@mail.com" className="footer__email">
+              info@mail.com
+            </a>
+
+            <button className="footer-to__top-btn" />
+          </div>
+          <div className="footer__copy">@2015 Oxygen Theme</div>
+        </div>
+      </footer>
     </div>
   );
 };
